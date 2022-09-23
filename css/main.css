@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito&family=Roboto:ital@1&display=swap");
+.textCenter {
+  text-align: center;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.centrado {
+  align-items: center;
+}
+
+nav img {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+#botonera ul li a:active {
+  font-weight: 700;
+}
+#botonera ul li a:active:hover {
+  color: #292829;
+}
+
+.btn-rounded {
+  border-radius: 10px;
+}
+
+h1 {
+  color: #80436d;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 3rem;
+  color: rgba(54, 7, 44, 0.781);
+  font-weight: 200;
+  font-family: "Nunito", sans-serif;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #80436d;
+}
+
+.pie__icon--sm {
+  width: 40px;
+}
+
+.pie__icon--md {
+  width: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+body {
+  background-image: url(../imagenes/Fondo.png);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.btn-change, .btn-rounded {
+  background-color: rgb(243, 240, 240) !important;
+  color: #80436d;
+  font-weight: 400;
+  border: black 100px !important;
+}
+.btn-change:hover, .btn-rounded:hover {
+  color: #bb20c1;
+}
+
+.bg-violet {
+  background-color: rgba(238, 188, 247, 0.7);
+}
+
+.flex {
+  display: flex;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.radial-gradient {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+
+.aside {
+  font-size: 2.5rem;
+}
+
+.flexEnd {
+  align-content: flex-end;
+}
+
+.flexStart {
+  align-content: flex-start;
+}/*# sourceMappingURL=main.css.map */
